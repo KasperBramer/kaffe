@@ -1,0 +1,36 @@
+body {
+  background-image: url("/image/patryk-gauza-vs0tzSHVcac-unsplash.jpg");
+  font-family: Verdana, sans-serif;
+}
+.header {
+  margin-top: 50px;
+  text-align: center;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+.container {
+  margin: 30px;
+  opacity: 0.75;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  border-radius: 5px;
+
+  background-color: #f1f1f1;
+}
+
+.container div {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+img {
+  border-radius: 10px;
+
+  width: 100px;
+}
+
+.img {
+  border: none !important;
+}
